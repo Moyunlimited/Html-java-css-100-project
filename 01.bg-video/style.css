@@ -1,0 +1,32 @@
+.back-video {
+height: 100vh;
+width: 100%;
+}
+
+.body {
+    position: absolute;
+    z-index: 100;
+    top: 150px;
+    color: white;
+    right: 480px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 20px;
+}
+.body h1:hover {
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+
+.body a {
+    color: white;
+    font-size: large;
+    border: 1px solid white;
+    padding: 10px 30px;
+}
+
+.body a:hover {
+    background: black;
+    color: black;
+}
+
